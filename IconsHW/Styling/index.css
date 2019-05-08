@@ -1,0 +1,48 @@
+.h1{
+    background-color: red;
+    color: black;
+    padding: 25px; 
+    font-style: unset;
+    font-size: 30px;
+}
+.h2{
+    font-size: 25px;
+    font-style: oblique;
+}
+.h2:hover {
+    transition: 0.1s ease-in-out;
+    color: red;
+}
+.navbar i:hover{
+    transform: rotate(180deg);
+}
+.table1{
+    margin-right: 40%;
+    margin-left: 10%;
+}
+.table2{
+    margin-right: 30%;
+    margin-left: 25%;
+}
+.table3{
+    margin-right: 35%;
+    margin-left: 41%;
+}
+@media (min-width:992px) {
+    .mobile-only{
+display: none;
+    }
+    .desktop-only{
+display: inline-block;
+
+    }
+}
+@media (max-width:991px) {
+    .mobile-only{
+display: inline-block;
+
+    }
+    .desktop-only{
+display: none;
+    }
+}
